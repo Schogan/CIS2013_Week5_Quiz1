@@ -13,9 +13,9 @@ int prime_num(int first_num,int secon_num){
 	cout << "Your Prime numbers are: "<<endl;
 	for (i=first_num;i<=secon_num;i++){
 		for (j=2; j<i; j++){
-	        	if (i % j == 0){
-					break;
-				}
+	        if (i % j == 0){
+				break;
+			}
 			else if (i == j+1){
 				cout << i <<endl;
 			}
