@@ -29,15 +29,12 @@ void lc_denominator(int first_num,int secon_num){
     a=first_num;
     b=secon_num;
 
-    while(a!=b)
-    {
-	if(a < b)
-	{
-	a=a+first_num;
-	}
-	else
-	{
-	    b=b+secon_num;
+    while(a!=b){
+		if(a < b){
+		a=a+first_num;
+		}
+		else{
+			b=b+secon_num;
 	    }
     }
 
