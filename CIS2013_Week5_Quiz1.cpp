@@ -16,7 +16,7 @@ int prime_num(int first_num,int secon_num){
 	        if (i % j == 0){
 				break;
 			}
-			else if (i == j+1){
+			if (i == j+1){
 				cout << i <<endl;
 			}
 		}
