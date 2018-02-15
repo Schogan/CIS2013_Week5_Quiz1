@@ -12,16 +12,16 @@ int i = 0;
 int j = 0;
 int prime =0;
 
-int prime_num(int first_num,int secon_num){
+int prime_num(int first,int second){
 	cout << "Your Prime numbers are: "<<endl;
-	for (i=first_num;i<=secon_num;i++){
+	for (i=first;i<=second;i++){
 		for (j=2; j<i; j++){
 	        if (i % j == 0){
 				if(DEBUG){cout<< "EXAMPLE"<<endl;}
 				break;
 			}
 			if (i == j+1){
-				cout << i <<endl;
+				cout << "	" << i <<endl;
 			}
 		}
 	}
