@@ -2,6 +2,9 @@
 #include <cmath>
 #include <stdio.h>
 
+//Set false to true to run DEBUG
+#define DEBUG false
+
 using namespace std;
 int first_num = 0;
 int secon_num = 0;
@@ -14,6 +17,7 @@ int prime_num(int first_num,int secon_num){
 	for (i=first_num;i<=secon_num;i++){
 		for (j=2; j<i; j++){
 	        if (i % j == 0){
+				if(DEBUG){cout<< "EXAMPLE"<<endl;}
 				break;
 			}
 			if (i == j+1){
